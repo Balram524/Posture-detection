@@ -73,7 +73,7 @@ function draw() {
     textAlign(CENTER, CENTER);
     textSize(32);
     fill(100);
-    text("Welcome! Press 'Go Live' or Upload an Image", width / 2, height / 2);
+    text("Press 'Go Live' or Upload an Image", width / 2, height / 2);
     return;
   }
 

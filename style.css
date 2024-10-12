@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.button-container {
+  margin: 20px;
+}
+
+#goLive, #capture {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#imageUpload {
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#canvas-container {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#screenshots {
+  margin-top: 20px;
+}
+
+.screenshot-image {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid #333;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
